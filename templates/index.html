@@ -313,12 +313,13 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-6">
 							<div id="mc_embed_signup">
-								<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative">
-									<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
+								<form novalidate action="" method="get" class="subscription relative">
+									{% csrf_token %}
+									<input type="email" name="EMAIL" placeholder="Email address" maxlength="254" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
 									<div style="position: absolute; left: -5000px;">
 										<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
 									</div>
-									<button class="primary-btn hover d-inline-flex align-items-center"><span class="mr-10">Get Started</span><span class="lnr lnr-arrow-right"></span></button>
+									<button class="primary-btn hover d-inline-flex align-items-center" type="submit"><span class="mr-10">Get Started</span><span class="lnr lnr-arrow-right"></span></button>
 									<div class="info"></div>
 								</form>
 							</div>
