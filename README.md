@@ -5,6 +5,8 @@
 ## Email Newsletter with django
 This is a simple django project which shows how to add email subscription to a website using django and ajax.
 
+I wrote an article about how I accomplished this, you can read it [here]()
+
 ### Technologies and services uses
 - django
 - ajax
